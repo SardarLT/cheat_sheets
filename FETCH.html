@@ -7,7 +7,8 @@
   </head>
   <body>
     <script>
-      const proxy = "https://cors-anywhere.herokuapp.com/";
+      // CORS fix
+      const proxy = "https://cors-anywhere.herokuapp.com/";  
 
       function getWeather(woeid) {
         fetch(`${proxy}https://www.metaweather.com/api/location/${woeid}/`)
